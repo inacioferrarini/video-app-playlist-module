@@ -1,0 +1,11 @@
+
+workspace: PlaylistApp.xcworkspace
+xcodeproj: PlaylistApp.xcodeproj
+scheme: PlaylistApp
+output_directory: slather-report
+source_directory: PlaylistApp
+coverage_service: html
+ignore:
+  - Pods/*
+  - PlaylistAppTests/*
+
