@@ -15,7 +15,7 @@ PODS:
   - Glasgow/Transformer (0.1.0)
   - Glasgow/UIKit (0.1.0):
     - Glasgow/Core
-  - SharedModule (0.0.1):
+  - SharedModule (0.0.2):
     - Glasgow
 
 DEPENDENCIES:
@@ -28,7 +28,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Arrow: b696d6173296da330d1a995019db42f693249cd6
   Glasgow: 39d41637c125a39aade3cd89a66489d619e81ea7
-  SharedModule: b16613289ca72060d9069ca32d5edefe903c6c17
+  SharedModule: 4215bf052158ccfdc95b2c2ddd4e6088754e1331
 
 PODFILE CHECKSUM: 7882a54450ea1f407e5c3495b7705c0f507cb6d3
 
