@@ -1,0 +1,134 @@
+{
+    "kind": "youtube#playlistListResponse",
+    "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/TPpRurTkzjgLZ7eyqNYQSUfM5SE\"",
+    "pageInfo": {
+        "totalResults": 3,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#playlist",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/FD1xoly0LUiKfGxnNjatt7gXU-s\"",
+            "id": "PLfUasC1aTlIaZzCd1KR9cRjmxwaHevyhX",
+            "snippet": {
+                "publishedAt": "2017-06-16T15:49:26.000Z",
+                "channelId": "UCzWH4nL3eEhfG5kJ4oPkU2g",
+                "title": "Cats",
+                "description": "Description for Cats playlist",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/koh2F81qWkU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/koh2F81qWkU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/koh2F81qWkU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/koh2F81qWkU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Inacio Teste",
+                "localized": {
+                    "title": "Cats",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/KNkn6ENcvJDLQBjNFH9964M_O9g\"",
+            "id": "PLfUasC1aTlIa-6QYwShs2xGuxHier6qN9",
+            "snippet": {
+                "publishedAt": "2017-06-16T15:48:07.000Z",
+                "channelId": "UCzWH4nL3eEhfG5kJ4oPkU2g",
+                "title": "Playlist 2",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hB9SxKym6zY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hB9SxKym6zY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hB9SxKym6zY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hB9SxKym6zY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/hB9SxKym6zY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Inacio Teste",
+                "localized": {
+                    "title": "Playlist 2",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/kaI3AMNBgVEiiTHcNz2L7rI6lPo\"",
+            "id": "PLfUasC1aTlIaAiIeRdUzM9SgSRK0oJF6b",
+            "snippet": {
+                "publishedAt": "2017-06-16T15:43:07.000Z",
+                "channelId": "UCzWH4nL3eEhfG5kJ4oPkU2g",
+                "title": "Playlist 1",
+                "description": "Description for Playlist 1",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8pdF2E4QUbk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8pdF2E4QUbk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8pdF2E4QUbk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8pdF2E4QUbk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/8pdF2E4QUbk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Inacio Teste",
+                "localized": {
+                    "title": "Playlist 1",
+                    "description": ""
+                }
+            }
+        }
+    ]
+}

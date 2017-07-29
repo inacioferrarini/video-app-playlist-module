@@ -5,12 +5,14 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "AF4042EC6FD50DD45B3261762F95D54887F5DDF2" : 9223372036854775807,
-    "623336720FA84B8A5F4DF70270EDE5CB767F651C" : 9223372036854775807
+    "623336720FA84B8A5F4DF70270EDE5CB767F651C" : 9223372036854775807,
+    "99DD99CBDFFA743EA143754A318969406BECEC49" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "42734B61-9B14-43FF-9603-F3F88602D9AE",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "AF4042EC6FD50DD45B3261762F95D54887F5DDF2" : "Shared\/",
-    "623336720FA84B8A5F4DF70270EDE5CB767F651C" : "PlaylistApp\/"
+    "623336720FA84B8A5F4DF70270EDE5CB767F651C" : "PlaylistApp\/",
+    "99DD99CBDFFA743EA143754A318969406BECEC49" : "..\/..\/..\/Glasgow"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "PlaylistApp",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/inacioferrarini\/video-app-playlist-module.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "623336720FA84B8A5F4DF70270EDE5CB767F651C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/inacioferrarini\/glasgow.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99DD99CBDFFA743EA143754A318969406BECEC49"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/inacioferrarini\/video-app-shared-module",

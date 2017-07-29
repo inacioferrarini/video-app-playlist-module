@@ -10,13 +10,22 @@
 		375439E889E8B290625A32E0 /* Pods_PlaylistAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D814D4A280B860196F072E8 /* Pods_PlaylistAppTests.framework */; };
 		3AF645C99C39DC5215F964F9 /* Pods_PlaylistAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B053043D00B9EDF29E08D5 /* Pods_PlaylistAppUITests.framework */; };
 		68D9940C0BCA8F0894F00138 /* Pods_PlaylistApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364EE4BE9FBF39D0E56C0B84 /* Pods_PlaylistApp.framework */; };
-		76A684361F23B3A600C773DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A684351F23B3A600C773DB /* AppDelegate.swift */; };
-		76A684381F23B3A600C773DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A684371F23B3A600C773DB /* ViewController.swift */; };
 		76A6843B1F23B3A600C773DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A684391F23B3A600C773DB /* Main.storyboard */; };
 		76A6843D1F23B3A600C773DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A6843C1F23B3A600C773DB /* Assets.xcassets */; };
 		76A684401F23B3A600C773DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A6843E1F23B3A600C773DB /* LaunchScreen.storyboard */; };
-		76A6844B1F23B3A600C773DB /* PlaylistAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A6844A1F23B3A600C773DB /* PlaylistAppTests.swift */; };
 		76A684561F23B3A600C773DB /* PlaylistAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A684551F23B3A600C773DB /* PlaylistAppUITests.swift */; };
+		76A684921F24357000C773DB /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A6848E1F24357000C773DB /* Playlist.swift */; };
+		76A684931F24357000C773DB /* PlaylistApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A684901F24357000C773DB /* PlaylistApi.swift */; };
+		76A684961F24359600C773DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A684951F24359600C773DB /* AppDelegate.swift */; };
+		76A684991F24363200C773DB /* PlaylistResponseToPlaylistArrayTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A684981F24363200C773DB /* PlaylistResponseToPlaylistArrayTransformer.swift */; };
+		76A684A21F243BC600C773DB /* FixtureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A6849B1F243BC600C773DB /* FixtureHelper.swift */; };
+		76A684A31F243BC600C773DB /* PlaylistApi_All_ResponseFixture.json in Resources */ = {isa = PBXBuildFile; fileRef = 76A6849F1F243BC600C773DB /* PlaylistApi_All_ResponseFixture.json */; };
+		76A684A81F243CBC00C773DB /* PlaylistApiSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A684A71F243CBC00C773DB /* PlaylistApiSpec.swift */; };
+		76A684AA1F243CCB00C773DB /* PlaylistResponseToPlaylistArrayTransformerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A684A91F243CCB00C773DB /* PlaylistResponseToPlaylistArrayTransformerSpec.swift */; };
+		76EBED531F2549C9007FE4C4 /* PlaylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EBED521F2549C9007FE4C4 /* PlaylistTableViewController.swift */; };
+		BBAAF8A41F2C282800BCCA51 /* DataSourceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAAF8A31F2C282800BCCA51 /* DataSourceFactory.swift */; };
+		BBAAF8A61F2C283500BCCA51 /* DelegateFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAAF8A51F2C283500BCCA51 /* DelegateFactory.swift */; };
+		BBAAF8A91F2C444C00BCCA51 /* StringTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAAF8A81F2C444C00BCCA51 /* StringTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,20 +51,29 @@
 		364EE4BE9FBF39D0E56C0B84 /* Pods_PlaylistApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaylistApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D814D4A280B860196F072E8 /* Pods_PlaylistAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaylistAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A684321F23B3A600C773DB /* PlaylistApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		76A684351F23B3A600C773DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76A684371F23B3A600C773DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76A6843A1F23B3A600C773DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76A6843C1F23B3A600C773DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76A6843F1F23B3A600C773DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76A684411F23B3A600C773DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76A684461F23B3A600C773DB /* PlaylistAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaylistAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76A6844A1F23B3A600C773DB /* PlaylistAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistAppTests.swift; sourceTree = "<group>"; };
 		76A6844C1F23B3A600C773DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76A684511F23B3A600C773DB /* PlaylistAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaylistAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A684551F23B3A600C773DB /* PlaylistAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistAppUITests.swift; sourceTree = "<group>"; };
 		76A684571F23B3A600C773DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A6848E1F24357000C773DB /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		76A684901F24357000C773DB /* PlaylistApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistApi.swift; sourceTree = "<group>"; };
+		76A684951F24359600C773DB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76A684981F24363200C773DB /* PlaylistResponseToPlaylistArrayTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistResponseToPlaylistArrayTransformer.swift; sourceTree = "<group>"; };
+		76A6849B1F243BC600C773DB /* FixtureHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixtureHelper.swift; sourceTree = "<group>"; };
+		76A6849F1F243BC600C773DB /* PlaylistApi_All_ResponseFixture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PlaylistApi_All_ResponseFixture.json; sourceTree = "<group>"; };
+		76A684A71F243CBC00C773DB /* PlaylistApiSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistApiSpec.swift; sourceTree = "<group>"; };
+		76A684A91F243CCB00C773DB /* PlaylistResponseToPlaylistArrayTransformerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistResponseToPlaylistArrayTransformerSpec.swift; sourceTree = "<group>"; };
+		76EBED521F2549C9007FE4C4 /* PlaylistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewController.swift; sourceTree = "<group>"; };
 		A2BF74723FD9C8C51DE502C8 /* Pods-PlaylistApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaylistApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaylistApp/Pods-PlaylistApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B13BF29F8ECB0A3C28E2D802 /* Pods-PlaylistAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaylistAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaylistAppUITests/Pods-PlaylistAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBAAF8A31F2C282800BCCA51 /* DataSourceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceFactory.swift; sourceTree = "<group>"; };
+		BBAAF8A51F2C283500BCCA51 /* DelegateFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateFactory.swift; sourceTree = "<group>"; };
+		BBAAF8A81F2C444C00BCCA51 /* StringTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTableViewCell.swift; sourceTree = "<group>"; };
 		DEBC9968800AC9D5781FEF73 /* Pods-PlaylistAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaylistAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaylistAppTests/Pods-PlaylistAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2CD4FA2A80DF5B1966CA4F9 /* Pods-PlaylistApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaylistApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlaylistApp/Pods-PlaylistApp.release.xcconfig"; sourceTree = "<group>"; };
 		FA068B393E977FEF00DEE669 /* Pods-PlaylistAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaylistAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlaylistAppUITests/Pods-PlaylistAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,8 +145,13 @@
 		76A684341F23B3A600C773DB /* PlaylistApp */ = {
 			isa = PBXGroup;
 			children = (
-				76A684351F23B3A600C773DB /* AppDelegate.swift */,
-				76A684371F23B3A600C773DB /* ViewController.swift */,
+				76A684941F24359600C773DB /* Init */,
+				76A6848B1F24357000C773DB /* Controller */,
+				BBAAF8A21F2C27E500BCCA51 /* Factories */,
+				76A6848D1F24357000C773DB /* Model */,
+				76A6848F1F24357000C773DB /* Networking */,
+				76A684971F24362800C773DB /* Transformer */,
+				BBAAF8A71F2C440400BCCA51 /* UIKit */,
 				76A684391F23B3A600C773DB /* Main.storyboard */,
 				76A6843C1F23B3A600C773DB /* Assets.xcassets */,
 				76A6843E1F23B3A600C773DB /* LaunchScreen.storyboard */,
@@ -140,7 +163,10 @@
 		76A684491F23B3A600C773DB /* PlaylistAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				76A6844A1F23B3A600C773DB /* PlaylistAppTests.swift */,
+				76A6849A1F243BC600C773DB /* Helpers */,
+				76A6849C1F243BC600C773DB /* Resources */,
+				76A684A51F243CA000C773DB /* Networking */,
+				76A684A61F243CA000C773DB /* Transformer */,
 				76A6844C1F23B3A600C773DB /* Info.plist */,
 			);
 			path = PlaylistAppTests;
@@ -153,6 +179,111 @@
 				76A684571F23B3A600C773DB /* Info.plist */,
 			);
 			path = PlaylistAppUITests;
+			sourceTree = "<group>";
+		};
+		76A6848B1F24357000C773DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76EBED521F2549C9007FE4C4 /* PlaylistTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76A6848D1F24357000C773DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76A6848E1F24357000C773DB /* Playlist.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76A6848F1F24357000C773DB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				76A684901F24357000C773DB /* PlaylistApi.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		76A684941F24359600C773DB /* Init */ = {
+			isa = PBXGroup;
+			children = (
+				76A684951F24359600C773DB /* AppDelegate.swift */,
+			);
+			path = Init;
+			sourceTree = "<group>";
+		};
+		76A684971F24362800C773DB /* Transformer */ = {
+			isa = PBXGroup;
+			children = (
+				76A684981F24363200C773DB /* PlaylistResponseToPlaylistArrayTransformer.swift */,
+			);
+			path = Transformer;
+			sourceTree = "<group>";
+		};
+		76A6849A1F243BC600C773DB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				76A6849B1F243BC600C773DB /* FixtureHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		76A6849C1F243BC600C773DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76A6849D1F243BC600C773DB /* Fixtures */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		76A6849D1F243BC600C773DB /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				76A6849E1F243BC600C773DB /* Networking */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		76A6849E1F243BC600C773DB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				76A6849F1F243BC600C773DB /* PlaylistApi_All_ResponseFixture.json */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		76A684A51F243CA000C773DB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				76A684A71F243CBC00C773DB /* PlaylistApiSpec.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		76A684A61F243CA000C773DB /* Transformer */ = {
+			isa = PBXGroup;
+			children = (
+				76A684A91F243CCB00C773DB /* PlaylistResponseToPlaylistArrayTransformerSpec.swift */,
+			);
+			path = Transformer;
+			sourceTree = "<group>";
+		};
+		BBAAF8A21F2C27E500BCCA51 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				BBAAF8A31F2C282800BCCA51 /* DataSourceFactory.swift */,
+				BBAAF8A51F2C283500BCCA51 /* DelegateFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		BBAAF8A71F2C440400BCCA51 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BBAAF8A81F2C444C00BCCA51 /* StringTableViewCell.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		F9F665D3214CFE884DC0FA67 /* Frameworks */ = {
@@ -242,6 +373,7 @@
 				TargetAttributes = {
 					76A684311F23B3A600C773DB = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TS43775FV9;
 						ProvisioningStyle = Automatic;
 					};
 					76A684451F23B3A600C773DB = {
@@ -291,6 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A684A31F243BC600C773DB /* PlaylistApi_All_ResponseFixture.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +579,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76A684381F23B3A600C773DB /* ViewController.swift in Sources */,
-				76A684361F23B3A600C773DB /* AppDelegate.swift in Sources */,
+				76A684931F24357000C773DB /* PlaylistApi.swift in Sources */,
+				76EBED531F2549C9007FE4C4 /* PlaylistTableViewController.swift in Sources */,
+				76A684961F24359600C773DB /* AppDelegate.swift in Sources */,
+				76A684991F24363200C773DB /* PlaylistResponseToPlaylistArrayTransformer.swift in Sources */,
+				76A684921F24357000C773DB /* Playlist.swift in Sources */,
+				BBAAF8A41F2C282800BCCA51 /* DataSourceFactory.swift in Sources */,
+				BBAAF8A91F2C444C00BCCA51 /* StringTableViewCell.swift in Sources */,
+				BBAAF8A61F2C283500BCCA51 /* DelegateFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +594,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76A6844B1F23B3A600C773DB /* PlaylistAppTests.swift in Sources */,
+				76A684AA1F243CCB00C773DB /* PlaylistResponseToPlaylistArrayTransformerSpec.swift in Sources */,
+				76A684A21F243BC600C773DB /* FixtureHelper.swift in Sources */,
+				76A684A81F243CBC00C773DB /* PlaylistApiSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,6 +741,7 @@
 			baseConfigurationReference = A2BF74723FD9C8C51DE502C8 /* Pods-PlaylistApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TS43775FV9;
 				INFOPLIST_FILE = PlaylistApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.inacio.PlaylistApp;
@@ -613,6 +755,7 @@
 			baseConfigurationReference = E2CD4FA2A80DF5B1966CA4F9 /* Pods-PlaylistApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TS43775FV9;
 				INFOPLIST_FILE = PlaylistApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.inacio.PlaylistApp;
@@ -625,7 +768,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DEBC9968800AC9D5781FEF73 /* Pods-PlaylistAppTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PlaylistAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -640,7 +782,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D1F75B2C1574FEDC318BA08 /* Pods-PlaylistAppTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PlaylistAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -698,6 +839,7 @@
 				76A6845C1F23B3A600C773DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76A6845D1F23B3A600C773DB /* Build configuration list for PBXNativeTarget "PlaylistAppTests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +848,7 @@
 				76A6845F1F23B3A600C773DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76A684601F23B3A600C773DB /* Build configuration list for PBXNativeTarget "PlaylistAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +857,7 @@
 				76A684621F23B3A600C773DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
